@@ -1,20 +1,20 @@
-DATA DICTIONARY - CLEANING DATA PROJECT
+#DATA DICTIONARY - CLEANING DATA PROJECT
 
-Subject
-		Subject identifier.  Each subject had a series of measurements made against 6 specific activities
-		1 .. 30		Integer
+*Subject
+	*	Subject identifier.  Each subject had a series of measurements made against 6 specific activities
+	*	1 .. 30		Integer
 		
-Activity
-	Activity description.  Each subject had a series of measurements made against each of these activities
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+*Activity
+	*Activity description.  Each subject had a series of measurements made against each of these activities
+		*WALKING
+		*WALKING_UPSTAIRS
+		*WALKING_DOWNSTAIRS
+		*SITTING
+		*STANDING
+		*LAYING
 		
-tBodyAcc.mean.X
-	Mean of time domain body acceleration along the X axis
+*tBodyAcc.mean.X
+	*Mean of time domain body acceleration along the X axis
 		
 tBodyAcc.mean.Y
 	Mean of time domain body acceleration along the Y axis
