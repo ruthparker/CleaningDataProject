@@ -17,9 +17,10 @@ Activity
 	* STANDING
 	* LAYING
 	
- tBodyAcc.mean.X
+tBodyAcc.mean.X
  
-	Mean of time domain body acceleration along the X axis
+	Mean of time domain body acceleration along the X axis.  Note that for this measurement and those that follow, units are not applicable as all measurements
+	have been normalised and bounded within [-1,1].
 		
 tBodyAcc.mean.Y
 
