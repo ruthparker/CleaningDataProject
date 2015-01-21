@@ -1,25 +1,25 @@
-#DATA DICTIONARY - CLEANING DATA PROJECT
+##DATA DICTIONARY - CLEANING DATA PROJECT
 
-*Subject
-	*	Subject identifier.  Each subject had a series of measurements made against 6 specific activities
-	*	1 .. 30		Integer
-		
-*Activity
-	*Activity description.  Each subject had a series of measurements made against each of these activities
-		*WALKING
-		*WALKING_UPSTAIRS
-		*WALKING_DOWNSTAIRS
-		*SITTING
-		*STANDING
-		*LAYING
-		
-*tBodyAcc.mean.X
-	*Mean of time domain body acceleration along the X axis
+* Subject
+  *	Subject identifier.  Each subject had a series of measurements made against 6 specific activities
+  *	1 .. 30		Integer
+* Activity
+  * Activity description.  Each subject had a series of measurements made against each of these activities
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
+* tBodyAcc.mean.X
+  * Mean of time domain body acceleration along the X axis
 		
 tBodyAcc.mean.Y
+
 	Mean of time domain body acceleration along the Y axis
 		
 tBodyAcc.mean.Z
+
 	Mean of time domain body acceleration along the Z axis
 		
 tGravityAcc.mean.X
@@ -212,7 +212,7 @@ fBodyGyroJerkMag.std
 	Standard deviation of frequency domain magnitude of the body gyroscope jerk 3-dimensional signals	
 
 
-NOTE:
+**NOTE:**
 
 	All measurements are normalised and bounded within [-1,1].
 
